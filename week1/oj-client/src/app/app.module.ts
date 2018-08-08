@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { ProblemListComponent } from './components/problem-list/problem-list.component';
 import { ProblemDetailComponent } from './components/problem-detail/problem-detail.component';
 
-import { DataService } from './service/data.service';import { ProblemDetailComponent } from './components/problem-detail/problem-detail.component';
+import { DataService } from './service/data.service';
 
 @NgModule({
   declarations: [
