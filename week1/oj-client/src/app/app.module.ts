@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 import { NgModule } from '@angular/core';
-
+import { HttpModule } from '@angular/http';
 import { routing } from './app.routes';
 
 import { AppComponent } from './app.component';
@@ -23,7 +23,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   imports: [
     BrowserModule,
     routing,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
   providers: [{
     provide: "data",
